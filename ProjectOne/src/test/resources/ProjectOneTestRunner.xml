@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="NPD Group Automation Test" parallel="false">
+
+    <parameter name="os" value="mac"/>
+    <parameter name="os_version" value="Sierra"/>
+    <parameter name="browserName" value="chrome"/>
+    <parameter name="browserVersion" value="53.0"/>
+    <parameter name="url" value="https://www.npd.com"/>
+
+    <test name = "NPD Group">
+        <classes>
+            <class name="Pages.landingPage"/>
+        </classes>
+    </test>
+
+</suite>
